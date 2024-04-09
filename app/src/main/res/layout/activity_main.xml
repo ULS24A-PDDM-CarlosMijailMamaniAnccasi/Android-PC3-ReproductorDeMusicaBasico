@@ -10,4 +10,32 @@
     tools:context=".MainActivity">
 
 
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="1">
+
+
+        <ImageButton
+            android:id="@+id/imgb_detener"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/boton_de_pausa2" />
+<!--
+        <ImageButton
+            android:id="@+id/imgb_reproducir"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/boton_de_play" />
+
+        <ImageButton
+            android:id="@+id/imgb_pausar"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/boton_de_pausa" />
+-->
+
+    </RadioGroup>
+
 </LinearLayout>
